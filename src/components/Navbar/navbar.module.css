@@ -1,0 +1,15 @@
+.nav {
+  margin-left: 50px;
+  display: grid;
+  grid-area: n;
+  grid-template-rows: repeat(5, 30px);
+  grid-template-columns: repeat(2, 30px);
+}
+
+.item {
+  color: rgb(102, 102, 102);
+}
+
+.item:hover {
+  color: rgba(17, 17, 17, 0.966);
+}
